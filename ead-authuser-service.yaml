@@ -48,3 +48,15 @@ resilience4j:
         minimumNumberOfCalls: 2
         waitDurationInOpenState: 30s
         failureRateThreshold: 80
+
+authuser:
+  refreshscope:
+    name: Kerlyson  
+
+management:
+  endpoins:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
