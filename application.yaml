@@ -6,6 +6,6 @@ ead:
 eureka:
   client:
     serviceUrl:
-      default-zone: 'https://${ead.serviceRegistry.username}:${ead.serviceRegistry.password}@localhost:8761/eureka'
+      defaultZone: 'https://${ead.serviceRegistry.username}:${ead.serviceRegistry.password}@localhost:8761/eureka'
   instance:
     hostname: localhost
